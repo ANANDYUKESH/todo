@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <style>
+    body{
+        background-color:purple;
+    }
+    .continer{
+      background-color: goldenrod;
+        font-family: Arial, sans-serif;
+        height: 200px;
+        width: 300px;
+        margin: 100px auto;
+    }
+    .first{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+    legend{
+        font-size: 20px;
+        color: white;
+    }
+  </style>
+
+</head>
+<body>
+    
+    <div class="continer">
+        <fieldset><legend>Todo List</legend>
+        <div class="first"><input type="checkbox">Attend meeting</div>
+        <div class="first"><input type="checkbox" disabled checked><s>complete Assignment</s></div>
+        <div class="first"><input type="checkbox"  disabled checked><s>Finish website for new website</s></div>
+        <div class="first"><input type="checkbox">Go to gym</div>
+    </fieldset>
+    </div>
+
+</body>
+</html>
